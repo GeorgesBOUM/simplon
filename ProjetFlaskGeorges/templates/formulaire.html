@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Formulaire</title>
+    </head>
+
+    <body>
+        <form method="post" action=".">
+ 
+            <fieldset>
+                <legend>Vos coordonnées</legend>  
+         
+                <label for="nom">Votre nom :</label>
+                <input type="text" name="nom" id="nom" />
+         
+                <label for="prenom">Votre prénom </label>
+                <input type="text" name="prenom" id="prenom" />
+
+                <label for="civilite">Civilité :</label>
+                <select name="civilite" id=civilite>
+                    <option value="Monsieur">Monsieur</option>
+                    <option value="Madame">Madame</option>
+                </select>
+          
+                <label for="pseudo">Votre pseudo :</label>
+                <input type="text" name="pseudo" id="pseudo" />
+
+                <input type="submit" value="Envoyer" />
+         
+            </fieldset>
+          
+        </form>
+    </body>
+</html>
